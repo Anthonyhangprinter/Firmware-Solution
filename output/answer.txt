@@ -1,0 +1,19 @@
+What are advantages and disadvantages of CAN over other protocols such as USB, PCIE, SPI etc? List reasons of why Redback Racing's Embedded Systems, Powertrain, DAQ and Autonomous Vehicles(AV) departments would use CAN? Hint: CAN has a lot of desirable properties
+
+
+
+
+Advantages of CAN over other protocols (USB, PCIE, SPI):
+
+Robustness and Error Handling: CAN includes built-in error detection and handling mechanisms, making it highly reliable.
+Real-time Capabilities: CAN is designed for real-time control, making it ideal for automotive and industrial applications where timely data transmission is crucial.
+Multi-Master Capability: Multiple devices can initiate communication, which is essential for systems like autonomous vehicles where different sensors and controllers need to communicate independently.
+Cost-Effective: CAN transceivers and controllers are relatively inexpensive compared to high-speed protocols like PCIe.
+Reasons for Redback Racing's Use of CAN:
+
+
+
+Noise Immunity: CAN is highly immune to electrical noise, which is beneficial in the automotive environment where electromagnetic interference is common.
+Deterministic Latency: Ensures that high-priority messages are sent with low and predictable latency.
+Scalability: Supports a large number of nodes, allowing for easy integration of new sensors and actuators as the vehicle's capabilities expand.
+Fault Tolerance: The CAN network can continue functioning even if a node fails, ensuring the safety and reliability of the system.
